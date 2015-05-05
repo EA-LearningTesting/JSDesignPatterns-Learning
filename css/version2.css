@@ -1,0 +1,104 @@
+html,body{
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+	background: #ececec;
+}
+
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.jumbotron{
+	background: #18062d;
+	padding: 80px 50px;
+	text-align: center;
+	color:#A0D7f3;
+	
+}
+
+
+.jumbotron h1{
+	font-size: 3em;
+	text-transform: uppercase;
+}
+
+
+.jumbotron .muted{
+	color:#929bce;
+}
+
+#catDisplay{
+	cursor: pointer;
+}
+
+#catDisplay .img{
+	width: 40%;
+	border-radius: 50%;
+	display: inline-block;
+	width: 250px;
+	height: 250px;
+	border-radius: 125px;
+
+
+}
+
+#catDisplay .text{
+	display: inline-block;
+	margin-top: -210px;
+	text-align: right;
+	margin-left: 20px;
+}
+
+h2 span{
+	font-size: .8em;
+}
+
+.menuTitle{
+	position: absolute;
+	top: 5px;
+	left: 10px;
+	color: #eee;
+	opacity: .8;
+	transition:all .4s;
+	font-size: 1.2em;
+	text-decoration: none;
+}
+
+.menuTitle:hover{
+	opacity: 1;
+}
+
+.cats{
+	padding: 20px 100px;
+}
+
+.cat{
+	cursor: pointer;
+	display: inline-block;
+	text-align: center;
+	padding: 24px 15px;
+	background: #fff;
+	box-shadow: 0 -1px 0 #e5e5e5,0 0 2px rgba(0,0,0,.12),0 2px 4px rgba(0,0,0,.24);
+	color:#497ad7;
+	opacity: .8;
+	transition:all .3s;
+	border-radius: 5px;
+	margin:10px 20px;
+}
+
+
+.cat:hover{
+	box-shadow: 0 -2px 0 #e5e5e5,0 0 4px rgba(0,0,0,.24),0 4px 8px rgba(0,0,0,.48);
+	opacity: 1;
+}
+
+.cat .img{
+	width: 40%;
+	border-radius: 50%;
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+}
